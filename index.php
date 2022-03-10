@@ -1,7 +1,4 @@
-<?php session_start(); ?>
-<link rel="stylesheet" href="style.css">
-
-<?php 
+<?php session_start(); 
 // if the add todo button is pressed
     if(isset($_POST['addTodo'])){
 
@@ -64,3 +61,105 @@
 
 
 
+
+
+
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: black;
+}
+
+
+form {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+form input[type=date] {
+    width: 20%;
+    float: right;
+    font-size: 16px;
+    margin-right: 50px;
+}
+form input {
+    width: 50%;
+    float: left;
+
+    line-height: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+    font-size: 24px;
+    margin-left: 50px;
+
+    border: solid 2px black;
+}
+
+form button {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 20px;
+    line-height: 40px;
+    border: none;
+    background-color: black;
+    color: #f0f0f0;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+div {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 15px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+div h1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+
+
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+</style>
